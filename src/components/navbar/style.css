@@ -40,6 +40,7 @@ nav {
 .fa-instagram:hover,
 .hamburger-icon:hover {
 	color: #ffffff80;
+	text-decoration: none !important;
 }
 
 .sidenav {
@@ -74,6 +75,7 @@ nav {
 	right: 25px;
 	font-size: 36px;
 	margin-left: 50px;
+	text-decoration: none;
 }
 
 .hamburger-icon {
@@ -106,4 +108,12 @@ nav {
 a.logo {
 	padding-left: 0 !important;
 	/* margin-top: 12px; */
+}
+
+.nav-item {
+	/* color: black; */
+}
+
+ul {
+	list-style-type: none !important;
 }

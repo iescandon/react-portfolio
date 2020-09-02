@@ -15,22 +15,18 @@ function Navbar() {
 	return (
 		<nav className="navbar navbar-expand-lg navbar-dark">
 			<div id="mySidenav" className="sidenav mr-auto">
-				<a
-					href="javascript:void(0)"
-					className="closebtn"
-					onClick={() => closeNav()}
-				>
+				<a className="closebtn" onClick={() => closeNav()}>
 					&times;
 				</a>
-				<a href="#" className="logo">
+				<a href="#" class="logo">
 					<img
-						src=""
+						src="./apple.png"
 						id="sidenav-placeholder"
-						className="my-2 mx-auto d-block logo"
+						class="my-2 mx-auto d-block logo"
 					/>
 				</a>
 				<div>
-					<ul className="navbar-nav">
+					<ul className="">
 						<li className="nav-item">
 							<Link
 								to="/"
@@ -92,21 +88,15 @@ function Navbar() {
 				<li>
 					<a
 						href="https://www.linkedin.com/in/iescandon/"
-						target="_blank"
 						className="fa fa-linkedin"
 					></a>
 				</li>
 				<li>
-					<a
-						href="https://github.com/iescandon"
-						target="_blank"
-						className="fa fa-github"
-					></a>
+					<a href="https://github.com/iescandon" className="fa fa-github"></a>
 				</li>
 				<li>
 					<a
 						href="https://www.instagram.com/inescandon/?hl=en"
-						target="_blank"
 						className="fa fa-instagram"
 					></a>
 				</li>
