@@ -1,0 +1,109 @@
+nav {
+	background-color: transparent !important;
+}
+.navbar-brand {
+	list-style: none;
+	display: inline-block;
+	padding-left: 0;
+	/* padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem; */
+	/* font-size: 1.25rem; */
+	/* line-height: inherit; */
+	/* white-space: nowrap; */
+	/* font-family: "Satisfy", cursive; */
+	/* font-size: 72px; */
+}
+
+.menu li {
+	display: inline;
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-instagram {
+	padding: 10px;
+	/* padding-top: 20px; */
+	/* margin-top: 18px; */
+	width: 41.5px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	/* color: #ffffff80; */
+	border-radius: 50%;
+	/* background-color: white; */
+}
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-instagram:hover,
+.hamburger-icon:hover {
+	color: #ffffff80;
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #f2f2f2;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 18px;
+	color: black;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: rgb(30, 105, 190);
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+.hamburger-icon {
+	padding-left: 24px;
+	font-size: 30px;
+	cursor: pointer;
+	color: white;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {
+		padding-top: 15px;
+	}
+	.sidenav a {
+		font-size: 18px;
+	}
+}
+
+nav {
+	padding: 0;
+}
+
+#sidenav-placeholder {
+	width: 35%;
+	/* height: 25%; */
+	/* clip-path: circle(40%);
+  background-color: grey; */
+}
+
+a.logo {
+	padding-left: 0 !important;
+	/* margin-top: 12px; */
+}
