@@ -40,7 +40,7 @@ function NavbarLight() {
 							className="my-2 mx-auto d-block logo"
 						/>
 					</Link>
-					<ul>
+					<ul className="pl-4">
 						<li className="nav-item">
 							<Link
 								to="/about"

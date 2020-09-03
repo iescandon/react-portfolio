@@ -3,14 +3,16 @@ label {
 	color: white;
 	opacity: 75%;
 	text-shadow: 2px 2px 20px black;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .btn {
-	background-color: lightgrey;
+	background-color: lightgrey !important;
 	outline: none;
 	border: none;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .btn:hover {
-	background-color: grey;
+	background-color: grey !important;
 }
