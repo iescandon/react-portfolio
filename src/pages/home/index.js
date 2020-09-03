@@ -5,7 +5,7 @@ import Navbar from '../../components/navbar/index';
 
 function Home() {
 	return (
-		<div className="container-fluid">
+		<div className="container-fluid background-img">
 			<Navbar />
 			<Jumbotron />
 		</div>

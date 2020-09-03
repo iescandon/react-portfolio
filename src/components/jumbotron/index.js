@@ -3,10 +3,10 @@ import './style.css';
 
 function Jumbotron() {
 	return (
-		<div class="jumbotron vertical-center">
-			<div class="container my-auto">
-				<h1 class="display-4">Inez Escandon</h1>
-				<p class="lead">ELEMENTARY TEACHER TURNED WEB DEVELOPER</p>
+		<div className="jumbotron vertical-center">
+			<div className="container my-auto">
+				<h1 className="display-4">Inez Escandon</h1>
+				<p className="lead">ELEMENTARY TEACHER TURNED WEB DEVELOPER</p>
 			</div>
 		</div>
 	);

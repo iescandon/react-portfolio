@@ -54,7 +54,6 @@ nav {
 	overflow-x: hidden;
 	transition: 0.5s;
 	padding-top: 60px;
-	font-family: 'Montserrat', sans-serif;
 }
 
 .sidenav a {
@@ -117,6 +116,16 @@ nav {
 
 ul {
 	list-style-type: none !important;
+}
+
+.navbar-brand {
+	font-size: 36px !important;
+	position: absolute;
+	/* top: 0; */
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: 'Satisfy', cursive;
+	font-weight: 600 !important;
 }
 
 .closebtn:hover {

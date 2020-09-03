@@ -1,17 +1,16 @@
 import React from 'react';
 import NavbarLight from '../../components/navbar-light';
 import './style.css';
-import ResumeInfo from '../../components/resume-info';
 
-function Resume() {
+function Contact() {
 	return (
 		<div>
 			<NavbarLight />
-			<div className="container-fluid">
-				<ResumeInfo />
+			<div className="container-fluid background-contact">
+				<h1>Contact Page</h1>
 			</div>
 		</div>
 	);
 }
 
-export default Resume;
+export default Contact;

@@ -1,0 +1,15 @@
+.title {
+	/* height: 34vh; */
+	/* height: 25vh; */
+	width: 100vw;
+	background-color: white;
+	/* background: none; */
+}
+
+.h1title {
+	color: black;
+	padding-top: 50px;
+	padding-bottom: 35px;
+	font-size: 66px;
+	font-family: 'Satisfy', cursive;
+}
