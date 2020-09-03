@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.035442d6.chunk.css",
-    "main.js": "/react-portfolio/static/js/main.2902868c.chunk.js",
-    "main.js.map": "/react-portfolio/static/js/main.2902868c.chunk.js.map",
+    "main.css": "/react-portfolio/static/css/main.6dc5f60a.chunk.css",
+    "main.js": "/react-portfolio/static/js/main.9a1bb6db.chunk.js",
+    "main.js.map": "/react-portfolio/static/js/main.9a1bb6db.chunk.js.map",
     "runtime-main.js": "/react-portfolio/static/js/runtime-main.213b1880.js",
     "runtime-main.js.map": "/react-portfolio/static/js/runtime-main.213b1880.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/react-portfolio/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.4eb73c52.chunk.js": "/react-portfolio/static/js/2.4eb73c52.chunk.js",
-    "static/js/2.4eb73c52.chunk.js.map": "/react-portfolio/static/js/2.4eb73c52.chunk.js.map",
+    "static/js/2.b2963787.chunk.js": "/react-portfolio/static/js/2.b2963787.chunk.js",
+    "static/js/2.b2963787.chunk.js.map": "/react-portfolio/static/js/2.b2963787.chunk.js.map",
     "index.html": "/react-portfolio/index.html",
-    "precache-manifest.d0830213b1564c096e157589cbb08056.js": "/react-portfolio/precache-manifest.d0830213b1564c096e157589cbb08056.js",
+    "precache-manifest.184f69048e8f7c3921c7ef2fc782c364.js": "/react-portfolio/precache-manifest.184f69048e8f7c3921c7ef2fc782c364.js",
     "service-worker.js": "/react-portfolio/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/react-portfolio/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.035442d6.chunk.css.map": "/react-portfolio/static/css/main.035442d6.chunk.css.map",
-    "static/js/2.4eb73c52.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.4eb73c52.chunk.js.LICENSE.txt",
+    "static/css/main.6dc5f60a.chunk.css.map": "/react-portfolio/static/css/main.6dc5f60a.chunk.css.map",
+    "static/js/2.b2963787.chunk.js.LICENSE.txt": "/react-portfolio/static/js/2.b2963787.chunk.js.LICENSE.txt",
     "static/media/ask-winston.png": "/react-portfolio/static/media/ask-winston.b3843f79.png",
     "static/media/style.css": "/react-portfolio/static/media/close-up.456cae7b.jpg",
     "static/media/burger-app.png": "/react-portfolio/static/media/burger-app.c7deb945.png",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.213b1880.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.4eb73c52.chunk.js",
-    "static/css/main.035442d6.chunk.css",
-    "static/js/main.2902868c.chunk.js"
+    "static/js/2.b2963787.chunk.js",
+    "static/css/main.6dc5f60a.chunk.css",
+    "static/js/main.9a1bb6db.chunk.js"
   ]
 }
