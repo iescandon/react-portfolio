@@ -1,0 +1,14 @@
+.background-contact {
+	background-image: url('contact.jpg');
+	background-size: cover;
+	height: 100vh;
+}
+
+.container-fluid {
+	height: 100vh;
+	overflow: hidden;
+	background-position-y: center;
+	position: absolute;
+	top: 0;
+	z-index: -100;
+}

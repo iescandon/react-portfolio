@@ -5,9 +5,10 @@ import Pdf from './InezEscandonCoding.pdf';
 
 function Resume() {
 	return (
-		<a href={Pdf} target="_blank">
-			Click here to download PDF
-		</a>
+		// <a href={Pdf} target="_blank">
+		// 	Click here to download PDF
+		// </a>
+		<Link to={Pdf} target="_blank"></Link>
 	);
 }
 

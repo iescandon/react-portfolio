@@ -1,0 +1,16 @@
+label {
+	margin-bottom: 0rem;
+	color: white;
+	opacity: 75%;
+	text-shadow: 2px 2px 20px black;
+}
+
+.btn {
+	background-color: lightgrey;
+	outline: none;
+	border: none;
+}
+
+.btn:hover {
+	background-color: grey;
+}

@@ -1,13 +1,26 @@
 import React from 'react';
-import NavbarLight from '../../components/navbar-light';
+import Navbar from '../../components/navbar';
 import './style.css';
+import ContactTitle from '../../components/contact-title';
+import ContactInfo from '../../components/contact-info';
+import ContactForm from '../../components/contact-form';
 
 function Contact() {
 	return (
 		<div>
-			<NavbarLight />
+			<Navbar />
 			<div className="container-fluid background-contact">
-				<h1>Contact Page</h1>
+				<div className="row">
+					<ContactTitle />
+				</div>
+				<div className="row">
+					<div className="col-9">
+						<ContactForm />
+					</div>
+					<div className="col-3">
+						<ContactInfo />
+					</div>
+				</div>
 			</div>
 		</div>
 	);
