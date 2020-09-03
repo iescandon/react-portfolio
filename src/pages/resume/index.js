@@ -1,16 +1,13 @@
 import React from 'react';
-import NavbarLight from '../../components/navbar-light';
+import { Link } from 'react-router-dom';
 import './style.css';
-import ResumeInfo from '../../components/resume-info';
+import Pdf from './InezEscandonCoding.pdf';
 
 function Resume() {
 	return (
-		<div>
-			<NavbarLight />
-			<div className="container-fluid">
-				<ResumeInfo />
-			</div>
-		</div>
+		<a href={Pdf} target="_blank">
+			Click here to download PDF
+		</a>
 	);
 }
 
