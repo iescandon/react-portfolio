@@ -28,9 +28,11 @@ function NavbarLight() {
 				</span> */}
 				<div>
 					<Link
-						to="/"
+						to="/react-portfolio"
 						className={
-							window.location.pathname === '/' ? 'nav-link active' : 'nav-link'
+							window.location.pathname === '/react-portfolio'
+								? 'nav-link active'
+								: 'nav-link'
 						}
 					>
 						<img
